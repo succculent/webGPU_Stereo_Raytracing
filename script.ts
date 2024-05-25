@@ -1,5 +1,5 @@
-import triangleVertWGSL from 'triangle.vert.wgsl';
-import redFragWGSL from 'red.frag.wgsl';
+import triangleVertWGSL from './triangle.vert.wgsl';
+import redFragWGSL from './red.frag.wgsl';
 
 const canvas = document.querySelector('canvas') as HTMLCanvasElement;
 const adapter = await navigator.gpu.requestAdapter();
